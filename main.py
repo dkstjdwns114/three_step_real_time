@@ -320,7 +320,7 @@ def today_open(day1_str, day7_str):
 close_cnt = close(today, day1, day2, day3, day4, day5, day6, day7)
 open_cnt = today_open(day1, day7)
 
-my_str = "개업: " + str(close_cnt) + "개, 폐업: " + str(open_cnt) + "개 데이터가 업데이트 되었습니다."
+my_str = "개업: " + str(open_cnt) + "개, 폐업: " + str(close_cnt) + "개 데이터가 업데이트 되었습니다."
 
 print(my_str)
 sendMessage(my_str, "최근 7일 데이터 업데이트 알림")
